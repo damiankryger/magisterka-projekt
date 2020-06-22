@@ -9,4 +9,4 @@ This is a project that was created as part of creating my master's thesis. It is
 3. Activate the virtual environment using the `source .venv/bin/activate` command.
 4. Install dependencies that are in the requirements.txt file using the `pip install -r requirements.txt` command
 5. To run the neural network learning process, run the `python3 -m src.train.py` command. This step is required before performing the next step.
-6. The next step is to start the song generation based on the parameters determined in the previous step. To do this, run the `python -m src.generate.py` command. Zostanie wygenerowany plik z rozszerzeniem .mid, który następnie w celu weryfikacji należy uruchomić w odpowiednim programie (np. LMMS na Ubuntu).
+6. The next step is to start the song generation based on the parameters determined in the previous step. To do this, run the `python -m src.generate.py` command. A file with the .mid extension will be generated, which should then be run in the appropriate program (e.g. LMMS on Ubuntu) for verification.
